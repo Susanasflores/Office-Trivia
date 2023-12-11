@@ -1,10 +1,8 @@
 # The Office Trivia
-
-# The Office Trivia
-A fun trivia game based on the TV series The Office.
+ A fun trivia game based on the TV series The Office
  
  ## Installation
-Prerequisites
+ Prerequisites
 
  Operating System: JavaScript, VS Code, and GitHub are compatible with multiple operating systems including Windows, macOS, and Linux.  Ensure that your operating system meets the requirements for these tools.  
 
@@ -17,6 +15,10 @@ Prerequisites
  Git: Git is a version control system used to clone and manage code repositories hosted on platforms like GitHub.  Install Git on your machine by downloading it from the official website[Git](https://git-scm.com)
  and follow the installation instructions for your operating system.
  Once you have these prerequisites in place, you should be ready to start coding with JavaScript using VS Code and collaborating with others using GitHub.  
+
+## Repository
+
+The source code for this project is hosted on [GitHub](https://github.com/Susanasflores/Office-Trivia)
 
  Cloning the Project
  To clone the project from GitHub:
