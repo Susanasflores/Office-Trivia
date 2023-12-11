@@ -1,0 +1,94 @@
+body {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/57c92580c534a5c7c898f469/1512367872210-QTYJYK0DYAJR82U9XFUK/The_Office_Trump.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; 
+  }
+  ul li:first-child {
+    list-style-type: none;
+  }     
+  ul {
+    list-style-type: none;
+  }
+  .answer-choice {
+    display: none;
+  }
+  
+  .answer-choice + span {
+    position: relative;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .feedback {
+    font-weight: bold;
+    font-size: 24px;
+    }
+  .answer-choice:checked + span::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    background-color: #000;
+    border-radius: 50%;
+  }
+  .title-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+  }
+  .title-box h1 {
+    font-size: 40px; 
+  }
+  .logo {
+    width: 160px; 
+    height: 100px; 
+    margin-right: 10px; 
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  #submit-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  .question {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .answer-option {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+  .feedback {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
